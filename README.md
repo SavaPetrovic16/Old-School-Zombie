@@ -14,4 +14,4 @@ Welcome to the Counter-Strike 1.6 Zombies Mod repository! This project brings cl
 
 1. Download or clone this repository:
    ```sh
-   git clone https://github.com/yourusername/cs16-zombies-mod.git
+   git clone https://github.com/SavaPetrovic16/cs16-zombies-mod.git
