@@ -1,0 +1,330 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: C:\Users\FREEWA~1\Desktop\GAMES\VLUZAC~1\tools\hlcsg.exe "C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm" 
+Arguments: "C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm" -low -wadautodetect 
+Entering C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       2 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.13 seconds)
+CSGBrush:
+ (0.38 seconds)
+
+added 4 additional animating textures.
+Using Wadfile: \games\counter-strike warzone\cstrike\as_riverside.wad
+ - Contains 3 used textures, 9.38 percent of map (27 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\chateau.wad
+ - Contains 3 used textures, 9.38 percent of map (136 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\coldwar.wad
+ - Contains 3 used textures, 9.38 percent of map (28 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\cs_bdog.wad
+ - Contains 2 used textures, 6.25 percent of map (132 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\cs_havana.wad
+ - Contains 1 used texture, 3.13 percent of map (122 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\cs_office.wad
+ - Contains 3 used textures, 9.38 percent of map (102 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\de_airstrip.wad
+ - Contains 2 used textures, 6.25 percent of map (69 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\itsitaly.wad
+ - Contains 2 used textures, 6.25 percent of map (99 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\mille_n_night.wad
+ - Contains 2 used textures, 6.25 percent of map (101 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\n0th1ng.wad
+ - Contains 2 used textures, 6.25 percent of map (8 textures in wad)
+Using Wadfile: \games\counter-strike warzone\cstrike\tswad.wad
+ - Contains 1 used texture, 3.13 percent of map (29 textures in wad)
+Using Wadfile: \users\freeware sys\desktop\games\bsp2map (2)\zm_dust_winter_btm.wad
+ - Contains 7 used textures, 21.88 percent of map (22 textures in wad)
+Using Wadfile: \users\freeware sys\desktop\pr3da7or.wad
+ - Contains 1 used texture, 3.13 percent of map (1 textures in wad)
+
+Wad files required to run the map: "as_riverside.wad;chateau.wad;coldwar.wad;cs_bdog.wad;cs_havana.wad;cs_office.wad;de_airstrip.wad;itsitaly.wad;mille_n_night.wad;n0th1ng.wad;tswad.wad;zm_dust_winter_btm.wad;pr3da7or.wad;"
+Texture usage is at 1.63 mb (of 32.00 mb MAX)
+0.86 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: C:\Users\FREEWA~1\Desktop\GAMES\VLUZAC~1\tools\hlbsp.exe "C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm" 
+Arguments: "C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       2 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...727 (0.20 seconds)
+BSP generation successful, writing portal file 'C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm.prt'
+SolidBSP [hull 1] 500...524 (0.14 seconds)
+SolidBSP [hull 2] 500...538 (0.13 seconds)
+SolidBSP [hull 3] 500...665 (0.17 seconds)
+Reduced 1922 clipnodes to 1870
+Reduced 147 texinfos to 120
+Reduced 32 texdatas to 30 (1412 bytes to 1324)
+Reduced 3000 planes to 1198
+FixBrinks:
+Increased 1870 clipnodes to 1871.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models             23/512         1472/32768    ( 4.5%)
+planes           1198/32768      23960/655360   ( 3.7%)
+vertexes         3089/65535      37068/786420   ( 4.7%)
+nodes             790/32767      18960/786408   ( 2.4%)
+texinfos          120/32767       4800/1310680  ( 0.4%)
+faces            2128/65535      42560/1310700  ( 3.2%)
+* worldfaces     1747/32768          0/0        ( 5.3%)
+clipnodes        1871/32767      14968/262136   ( 5.7%)
+leaves            540/32760      15120/917280   ( 1.6%)
+* worldleaves     389/8192           0/0        ( 4.7%)
+marksurfaces     2805/65535       5610/131070   ( 4.3%)
+surfedges       10517/512000     42068/2048000  ( 2.1%)
+edges            5336/256000     21344/1024000  ( 2.1%)
+texdata          [variable]       1324/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       6397/2097152  ( 0.3%)
+* AllocBlock       11/64             0/0        (17.2%)
+30 textures referenced
+=== Total BSP file data space used: 235651 bytes ===
+Wad files required to run the map: "as_riverside.wad;chateau.wad;coldwar.wad;cs_bdog.wad;cs_havana.wad;cs_office.wad;de_airstrip.wad;itsitaly.wad;mille_n_night.wad;n0th1ng.wad;tswad.wad;zm_dust_winter_btm.wad;pr3da7or.wad;"
+1.47 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: C:\Users\FREEWA~1\Desktop\GAMES\VLUZAC~1\tools\hlvis.exe "C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm" 
+Arguments: "C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm" -low 
+ 389 portalleafs
+1345 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       2 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.27 seconds)
+LeafThread:
+ (107.05 seconds)
+average leafs visible: 220
+g_visdatasize:17200  compressed from 19061
+107.36 seconds elapsed [1m 47s]
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL33 64-bit (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: C:\Users\FREEWA~1\Desktop\GAMES\VLUZAC~1\tools\HLRAD_~1.EXE "C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm" 
+Arguments: "C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm" -low 
+Loading extent file 'C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm.ext'
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                 2 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          50331648 ] [          50331648 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[               off ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+light limit threshold[           188.000 ] [           188.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.010 ] [             0.010 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.500 ] [             1.500 ]
+no emitter range     [               off ] [               off ]
+wall bleeding fix    [                on ] [                on ]
+
+
+Load Textures:
+Using Wadfile: C:\Games\Counter-Strike WaRzOnE\cstrike\maps\zm_winter_newzm.wa_
+30 textures referenced
+Reading texlights from 'C:\Users\FREEWA~1\Desktop\GAMES\VLUZAC~1\tools\lights.rad'
+0 opaque models
+0 opaque faces
+2128 faces
+Create Patches : 10446 base patches
+161148 square feet [23205420.00 square inches]
+5 direct lights and 16386 fast direct lights
+3 light styles
+
+FindFacePositions:
+ (2.92 seconds)
+BuildFacelights:
+ (33.95 seconds)
+BuildVisLeafs:
+ (11.02 seconds)
+visibility matrix   :   5.7 megs
+MakeScales:
+ (10.13 seconds)
+Transfer Lists :    13201452 :    13.20M transfers
+       Indices :     7263536 :     6.93M bytes
+          Data :    26433366 :    25.21M bytes
+Bounce 1 GatherLight:
+ (0.59 seconds)
+Bounce 2 GatherLight:
+ (0.70 seconds)
+Bounce 3 GatherLight:
+ (0.86 seconds)
+Bounce 4 GatherLight:
+ (0.88 seconds)
+Bounce 5 GatherLight:
+ (0.88 seconds)
+Bounce 6 GatherLight:
+ (0.91 seconds)
+Bounce 7 GatherLight:
+ (0.88 seconds)
+Bounce 8 GatherLight:
+ (0.88 seconds)
+CreateTriangulations:
+ (0.39 seconds)
+AddPatchLights:
+ (11.70 seconds)
+FinalLightFace:
+ (0.05 seconds)
+78.28 seconds elapsed [1m 18s]
+
+-----   END   hlrad -----
+
+
+
