@@ -4,9 +4,7 @@ Welcome to the Counter-Strike 1.6 Zombies Mod repository! This project brings cl
 
 ## Installation
 
-1. Download or clone this repository:
-   ```sh
-   git clone https://github.com/SavaPetrovic16/cs16-zombies-mod.git
+1. Assuming you are starting with a fresh cs 1.6 install or have an already set server move onto stop 2. Otherwise make sure you have a clean installation to work with:
 
 2. Download and install amxmodx + metamod:
    ```sh
