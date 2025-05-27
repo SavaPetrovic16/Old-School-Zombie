@@ -1,0 +1,41 @@
+-= Surf =-
+
+-= Instalation =-
+
+Upišite u server.cfg
+
+sv_airaccelerate 100
+
+
+-= SemiClip =-
+
+-= Info =-
+
+služi da bi igraci mogli da prolaze jedni kroz druge
+
+-= Download =-
+
+Skini Plugin (http://forums.alliedmods.net/showthread.php?t=69728&highlight=Semiclip)
+
+-= Instalacija =-
+
+semiclip.amxx ---->> cstrike/addons/amxmodx/plugins
+
+U novi red u plugins.ini upišite
+
+semiclip.amxx
+
+
+-= Anti-Spawnkill God =-
+
+-= Download =-
+
+Skini Plugin (http://forums.alliedmods.net/showthread.php?p=642027)
+
+-= Instalacija =-
+
+anti_spawnkill_god.amxx ---->> cstrike/addons/amxmodx/plugins
+
+U novom redu u plugins.ini upisujete
+
+anti_spawnkill_god.amxx

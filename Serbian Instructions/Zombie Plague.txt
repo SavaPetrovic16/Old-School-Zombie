@@ -1,0 +1,41 @@
+-= Zombie Plague =-
+
+-= Download =-
+
+Skini Plugin (http://forums.alliedmods.net/attachment.php?attachmentid=28817&d=1216059497)
+
+-= Instalacija =-
+
+models --->> /cstrike/models/
+sound --->> /cstrike/sound/
+sprites --->> /cstrike/sprites/
+
+
+zombie_plague40.amxx --->> /cstrike/addons/amxmodx/plugins/
+zp_zclasses40.amxx --->> /cstrike/addons/amxmodx/plugins/
+zombie_plague.txt --->> /cstrike/addons/amxmodx/data/lang/
+csdm --->> /cstrike/addons/amxmodx/configs/csdm
+plugins_zplague.ini --->> /cstrike/addons/amxmodx/configs/
+zombieplague.cfg --->> /cstrike/addons/amxmodx/configs/
+zombieplague.ini --->> /cstrike/addons/amxmodx/configs/
+zp_extraitems.ini --->> /cstrike/addons/amxmodx/configs/
+zp_zombieclasses.ini --->> /cstrike/addons/amxmodx/configs/
+
+Sve ostalo trazite OVDE (http://forums.alliedmods.net/forumdisplay.php?f=126)
+
+
+// Classic Zombie Attributes
+new const zclass1_name[] = { "Classic Zombie" }
+new const zclass1_info[] = { "=Balanced=" }
+new const zclass1_model[] = { "zombie_source" }
+new const zclass1_clawmodel[] = { "v_knife_zombie.mdl" }
+const zclass1_health = 1800
+const zclass1_speed = 230
+const Float:zclass1_gravity = 1.0
+const Float:zclass1_knockback = 1.0
+
+promenis:
+HP
+const zclass1_health = 2000 <--- Umesto 2000 stavis kolko hoces da ima helta
+Brzina
+const zclass1_speed = 230 <-- umesto 230 mozes da stavis zeljenu brzinu

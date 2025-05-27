@@ -1,0 +1,22 @@
+-= DeathMatch =-
+
+-= Download =-
+
+Skini Plugin (http://www.bailopan.net/csdm/index.php?page=download)
+
+-= Instalacija =-
+
+plugins-csdm.ini --->> /cs/cstrike/addons/amxmodx/configs/
+csdm.cfg --->> /cs/cstrike/addons/amxmodx/configs/
+folder csdm --->> /cs/cstrike/addons/amxmodx/configs/
+csdm_equip.amxx --->> /cs/cstrike/addons/amxmodx/plugins/
+csdm_ffa.amxx --->> /cs/cstrike/addons/amxmodx/plugins/
+csdm_itemmode.amxx --->> /cs/cstrike/addons/amxmodx/plugins/
+csdm_main.amxx --->> /cs/cstrike/addons/amxmodx/plugins/
+csdm_misc.amxx --->> /cs/cstrike/addons/amxmodx/plugins/
+csdm_protection.amxx --->> /cs/cstrike/addons/amxmodx/plugins/
+csdm_spawn_preset.amxx --->> /cs/cstrike/addons/amxmodx/plugins/
+csdm_tickets.amxx --->> /cs/cstrike/addons/amxmodx/plugins/
+spawn_editor.amxx --->> /cstrike/addons/amxmodx/plugins/
+csdm_amxx.dll --->> /cs/cstrike/addons/amxmodx/modules/
+csdm_amxx_i386.so --->> /cs/cstrike/addons/amxmodx/modules/

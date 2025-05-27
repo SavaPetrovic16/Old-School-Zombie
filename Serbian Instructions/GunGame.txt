@@ -1,0 +1,18 @@
+-= GunGame =-
+
+-= Download =-
+
+Skini Plugin (http://avalanche.gungame.org/download.php)
+
+-= Instalacija =-
+
+gungame.cfg --->> cstrike/addons/amxmodx/confing
+gungame.txt--->> cstrike/addons/amxmodx/data/lang
+gungame.amxx --->> cstrike/addons/amxmodx/plugins
+folder gungame --->> cstrike/sound
+
+-= Cvar =-
+
+Druge cvar komande možete videti na OVDE (http://avalanche.gungame.org/cvars_en.php)
+
+Takodje mozete menjati cvar komande i u gungame.cfg (cstrike/addnos/amxmodx/confing) ili jednostavnom komandom u konzoli amx_cvar

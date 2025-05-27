@@ -1,0 +1,65 @@
+-= DeathRun =-
+
+-= Download =-
+
+Skini Plugin (http://forums.alliedmods.net/showthread.php?t=78197)
+
+-= Instalacija =-
+
+DeathrunManager.amxx --->> /cstrike/addons/amxmodx/plugins/
+deathrun.txt --->> /cstrike/addons/amxmodx/data/lang/
+
+u plugins.ini dole pisemo
+
+DeathrunManager.amxx
+
+-= Info =-
+
+u amxx.cfg stavljamo cvar po potrebama
+
+
+-= Automatic Unstucking =-
+
+-= Download =-
+
+Skini Plugin (http://forums.alliedmods.net/showthread.php?p=441576)
+
+-= Instalacija =-
+
+stuck.amxx --->> /cstrike/addons/amxmodx/plugins/
+
+u plugins.ini dole pišete
+
+stuck.amxx
+
+
+-= Team Join Management =-
+
+-= Download =-
+
+Skini Plugin (http://forums.alliedmods.net/showthread.php?p=441576)
+
+-= Instalacija =-
+
+team_join.amxx --->> /cstrike/addons/amxmodx/plugins/
+
+u plugins.ini dole pišete
+
+team_join.amxx
+
+
+-= Deathrun Shop =-
+
+-= Download =-
+
+Skini Plugin (http://forums.alliedmods.net/showthread.php?t=87536)
+
+-= Instalacija =-
+
+DeathrunShopLang.txt --->> /cstrike/addons/amxmodx/data/lang
+DeathrunShop_Cfg.cfg --->> /cstrike/addons/amxmodx/configs
+Deathrun_Shop --->> /cstrike/addons/amxmodx/plugins
+
+u plugins.ini dole pišete
+
+Deathrun_Shop.amxx

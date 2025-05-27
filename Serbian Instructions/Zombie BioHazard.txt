@@ -1,0 +1,125 @@
+-= Zombie - biohazard =-
+
+-= Download =-
+
+Skini Plugin (http://forums.alliedmods.net/showthread.php?t=68523)
+
+-= Instalacija =-
+
+spawn_editor.amxx ; customflashlight.amxx ; biohazard.amxx ; bio_smokeflare.amxx ; bio_radar.amxx ; bio_boatescape.amxx ; bio_antiblock.amxx --->> /cstrike/addons/amxmodx/plugins/
+
+stalker.mdl ; slum.mdl ; leaper.mdl ; hulk.mdl ; gonome.mdl --->> /cstrike/models/
+plugins-bio.ini ; bh_zombieclass.ini ; bh_cvars.cfg --->> /cstrike/addons/amxmodx/configs/
+csdm --->> /cstrike/addons/amxmodx/configs/spawns/
+biohazard.txt --->> /cstrike/addons/amxmodx/data/lang/
+
+
+-= Laseri =-
+
+-= Download =-
+
+Skini Plugin (http://forums.alliedmods.net/showthread.php?p=221113)
+
+http://slike.milf-cs.info/images/1267210798.jpg
+
+-= Instalacija =-
+
+lasermine_023.amxx --->> /cstrike/addons/amxmodx/plugins/
+
+ltm_cvars.cfg --->> /cstrike/addons/amxmodx/configs/
+
+Bitni cvarovi:
+
+
+//lasermine ON/OFF (1 / 0)
+amx_ltm "1"
+
+//lasermine access level (0 is all, 1 is admin only)
+amx_ltm_acs "0"
+
+//lasermine mode (0 is killing laser, 1 is tripmine)
+amx_ltm_mode "0"
+
+//max have ammo and max deploy count.
+amx_ltm_ammo "2"
+
+//laser hit damage.
+amx_ltm_dmg "1000"
+
+//buying lasermine cost.
+amx_ltm_cost "2500"
+
+//kill enemy +money
+amx_ltm_fragmoney "300"
+
+//lasermines health. over 1000 is very hard mine :)
+amx_ltm_health "500"
+
+//max team deploy count.
+amx_ltm_teammax "200"
+
+//lasermine explode radius. ( it's float value)
+amx_ltm_radius "320.0"
+
+//lasermine explode damage. ( on center )
+amx_ltm_rdmg "500"
+
+//lasermine friendly fire.
+amx_ltm_ff "0"
+
+//lasermine can buying and deploying team.( ALL, T, CT )
+amx_ltm_cbt "ALL"
+
+//can say cmd buying. 0 is off, 1 is on . (/buy lasermine or /lm)
+amx_ltm_buymode "1"
+
+//lasermine round start deploying delay.
+amx_ltm_delay "15"
+
+//lasermine visible mode of laserline (0 is invisible, 1 is visible)
+amx_ltm_line "1"
+
+//glowing lasermine. (color is laser line color 0 is off, 1 is on )
+amx_ltm_glow "0"
+
+//laser line brightness.
+amx_ltm_bright "255"
+
+//laser line color mode. ( 0 is team color, 1 is green )
+amx_ltm_color "0"
+
+//laser hit damage mode. (0 is frame dmg, 1 is once dmg, 2 is seconds dmg)
+amx_ltm_ldmgmode "0"
+
+//seconds dmg. (dmg mode 2 only, damage / seconds default 1 sec)
+amx_ltm_ldmgseconds "1"
+
+//round start have ammo.
+amx_ltm_startammo "0"
+
+//command mode. (0 is +USE key, 1 is bind, 2 is each)
+amx_ltm_cmdmode "1"
+
+//Lasermine Configuration File
+echo Executing Lasermine Configuration File
+
+u plugins.ini dole pišemo
+
+lasermine_023.amxx
+
+
+-= Padobran =-
+
+-= Download =-
+
+Skini Plugin
+
+-= Instalacija =-
+
+amx_parachute.ammxx --->> /cstrike/addons/amxmodx/plugins/
+
+parachute.mdl --->> /cstrike/models/
+
+u plugins.ini dole pišemo
+
+amx_parachute.amxx
