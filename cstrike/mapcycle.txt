@@ -19,8 +19,4 @@ zm_fortuna
 zm_snowbase4
 zm_toxic_z
 zm_ice_attack_renovation
-zm_winter_newzm
-zm_snow_s1h
-
-
 
